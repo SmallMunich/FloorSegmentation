@@ -2,27 +2,11 @@
 
 ![KITTI Point Cloud](https://github.com/SmallMunich/FloorSegmentation/blob/master/image/origin.jpg)
 
-
-This Code Is From The Paper: [Fast Segmentation of 3D Point Clouds for Ground Vehicles(2010 IEEE Intelligent Vehicles Symposium)](https://ieeexplore.ieee.org/document/5548059)
-
-Implementation of the ground segmentation algorithm proposed in 
-```
-@inproceedings{himmelsbach2010fast,
-  title={Fast segmentation of 3d point clouds for ground vehicles},
-  author={Himmelsbach, Michael and Hundelshausen, Felix V and Wuensche, H-J},
-  booktitle={Intelligent Vehicles Symposium (IV), 2010 IEEE},
-  pages={560--565},
-  year={2010},
-  organization={IEEE}
-}
-```
-
-
 This Code Is From The Paper: [Fast segmentation of 3D point clouds: A paradigm on LiDAR data for autonomous vehicle applications(2017 IEEE ICRA)](https://ieeexplore.ieee.org/document/7989591/)
 
 Implementation of the ground segmentation algorithm proposed in 
 ```
-@inproceedings{himmelsbach2010fast,
+@inproceedings{D. Zermas2017,
   title={Fast segmentation of 3D point clouds: A paradigm on LiDAR data for autonomous vehicle applications},
   author={D. Zermas, I. Izzat and N. Papanikolopoulos},
   booktitle={International Conference on Robotics and Automation (ICRA), 2017 IEEE},
@@ -31,12 +15,6 @@ Implementation of the ground segmentation algorithm proposed in
   organization={IEEE}
 }
 ```
-
-
-## How To Use
-
-Here are two folders, every folder have its floor segmentation algorithm. You can enter each folder, build it with cmake.
-
 
 ## How To Build 
 
@@ -63,9 +41,17 @@ And Then, You Can Find new pcd Files In The Build File.
 
 ![Segmentation No Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/blob/master/image/nofloor.jpg)
 
+### Ground Plane Fitting
+- **sensor_height**  Sensor height above ground.
+- **sensor_model**  Sensors Model Lines.
+- **num_seg**  the number of segments.
+- **num_iter**  the number of iterations.
+- **num_seg**  the num of segments.
+- **num_lpr**  the number points of seeds.
+- **th_seeds**  the seeds threshold.
+- **th_dist**  the max dist for floor points.
+
 
 ### More Details Write In Blog Address
-
-* analyze this algorithm: https://blog.csdn.net/Small_Munich/article/details/108086888 
 
 * analyze this algorithm: 
