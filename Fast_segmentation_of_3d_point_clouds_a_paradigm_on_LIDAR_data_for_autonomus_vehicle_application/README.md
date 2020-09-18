@@ -1,6 +1,6 @@
 # FloorSegmentation
 
-![KITTI Point Cloud](https://github.com/SmallMunich/FloorSegmentation/blob/master/image/origin.jpg)
+![KITTI Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_a_paradigm_on_LIDAR_data_for_autonomus_vehicle_application/image/origin.jpg)
 
 This Code Is From The Paper: [Fast segmentation of 3D point clouds: A paradigm on LiDAR data for autonomous vehicle applications(2017 IEEE ICRA)](https://ieeexplore.ieee.org/document/7989591/)
 
@@ -37,9 +37,9 @@ And Then, You Can Find new pcd Files In The Build File.
 
 ### Visualize Floor & Not-Floor Point Cloud.
 
-![Segmentation Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/blob/master/image/floor.jpg)
+![Segmentation Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_a_paradigm_on_LIDAR_data_for_autonomus_vehicle_application/image/floor.jpg)
 
-![Segmentation No Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/blob/master/image/nofloor.jpg)
+![Segmentation No Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_a_paradigm_on_LIDAR_data_for_autonomus_vehicle_application/image/nofloor.jpg)
 
 ### Ground Plane Fitting
 - **sensor_height**  Sensor height above ground.
