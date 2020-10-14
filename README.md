@@ -1,6 +1,6 @@
 # FloorSegmentation
 
-![KITTI Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/origin.jpg)
+![KITTI Point Cloud](Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/origin.jpg)
 
 
 This Code Is From The Paper: [Fast Segmentation of 3D Point Clouds for Ground Vehicles(2010 IEEE Intelligent Vehicles Symposium)](https://ieeexplore.ieee.org/document/5548059)
@@ -29,6 +29,19 @@ Implementation of the ground segmentation algorithm proposed in
   pages={5067--5073},
   year={2017},
   organization={IEEE}
+}
+```
+
+This Code Is From The Paper: [Gaussian-Process-Based Real-Time Ground Segmentation for Autonomous Land Vehicles](https://www.researchgate.net/publication/271739703_Gaussian-Process-Based_Real-Time_Ground_Segmentation_for_Autonomous_Land_Vehicles)
+
+Implementation of the ground segmentation algorithm proposed in 
+```
+@inproceedings{ 
+title={Gaussian-Process-Based Real-Time Ground Segmentation for Autonomous Land Vehicles[J]},
+author={Chen T , Dai B , Wang R , et al.},
+booktitle={Journal of Intelligent and Robotic Systems}, 
+year={2014}, 
+pages={76(3-4):563-582}
 }
 ```
 
@@ -61,9 +74,9 @@ And Then, You Can Find new pcd Files In The Build File.
 
 ### Visualize Floor & Not-Floor Point Cloud.
 
-![Segmentation Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/floor.jpg)
+![Segmentation Floor Point Cloud](Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/floor.jpg)
 
-![Segmentation No Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/nofloor.jpg)
+![Segmentation No Floor Point Cloud](Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/nofloor.jpg)
 
 
 ### More Details Write In Blog Address

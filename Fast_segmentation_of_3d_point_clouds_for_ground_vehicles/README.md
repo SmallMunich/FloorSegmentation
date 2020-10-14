@@ -1,6 +1,6 @@
 # FloorSegmentation
 
-![KITTI Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/origin.jpg)
+![KITTI Point Cloud](image/origin.jpg)
 
 This Code Is From The Paper: [Fast Segmentation of 3D Point Clouds for Ground Vehicles(2010 IEEE Intelligent Vehicles Symposium)](https://ieeexplore.ieee.org/document/5548059)
 
@@ -37,9 +37,9 @@ And Then, You Can Find new pcd Files In The Build File.
 
 ### Visualize Floor & Not-Floor Point Cloud.
 
-![Segmentation Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/floor.jpg)
+![Segmentation Floor Point Cloud](image/floor.jpg)
 
-![Segmentation No Floor Point Cloud](https://github.com/SmallMunich/FloorSegmentation/tree/master/Fast_segmentation_of_3d_point_clouds_for_ground_vehicles/image/nofloor.jpg)
+![Segmentation No Floor Point Cloud](image/nofloor.jpg)
 
 ### Ground Condition
 - **sensor_height**  Sensor height above ground.
